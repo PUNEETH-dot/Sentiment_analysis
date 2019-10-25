@@ -18,4 +18,4 @@ public_tweet = api.search('The word on which you want to do sentiment analysis')
 for tweet in public_tweets:
 	print(tweet.text)
 	analysis = TextBlob(tweet.)
-	print(analysis.sentiment)
+	print(analy.sentiment)
